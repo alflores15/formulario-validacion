@@ -1,0 +1,94 @@
+/* Estilos principales */
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(img/debora-pilati-dOG0z4-gqp0-unsplash.jpg);
+}
+
+.tituloformulario{
+    padding: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cajaprincipal{
+    height: 450px;
+    display: grid;
+    place-items: center;
+}
+
+.formulario{
+    width: 350px;
+    height: 220px;
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 1fr 1fr;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Estilos del formulario */
+
+#username{
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 170px;
+    border-color: dodgerblue;
+}
+
+#contrasenha{
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 170px;
+    border-color: dodgerblue;
+}
+
+/* Fuente los label */
+.fontformulario{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: dodgerblue;
+}
+
+/* Estilos del boton */
+.boton{
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 100px;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.boton:hover{
+    background-color: orange;
+    border-color: orange;
+}
+
+/* Estilo de los textos del footer */
+.footerTitulo{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
